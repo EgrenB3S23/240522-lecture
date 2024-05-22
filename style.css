@@ -1,3 +1,14 @@
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+*/
+.roboto-f {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
     margin: 0;
 }
@@ -17,11 +28,14 @@ h1 {
     width: 100%;
 }
 
-.recipe-intro, .recipe-ingredients, .recipe-instructions {
+.recipe-intro,
+.recipe-ingredients,
+.recipe-instructions {
     padding: 0 1rem;
 }
 
-.recipe-ingredients, .recipe-instructions {
+.recipe-ingredients,
+.recipe-instructions {
     display: inline-flex;
 }
 
